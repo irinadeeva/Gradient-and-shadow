@@ -21,8 +21,8 @@ class ViewController: UIViewController {
 
         squareView.heightAnchor.constraint(equalToConstant: 125).isActive = true
         squareView.widthAnchor.constraint(equalToConstant: 125).isActive = true
-        squareView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         squareView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        squareView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 100).isActive = true
     }
 
     override func viewDidAppear(_ animated: Bool) {
